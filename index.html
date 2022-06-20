@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torre de Hanoi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="principal">
+
+        <span class="titulo" id="titulo">Torre de Hanoi</span>
+        <div id="areaTorres" class="area-torres">
+
+        </div>
+        <span class="contador-movimentos">Quantidade de Movimentos: <span id="contador" class="contador-movimentos">0</span> </span>
+
+
+        <div class="dificuldade">
+            <span>Informe o nível de dificuldade desejado:</span> <br>
+            <input type="radio" id="basico" name="dificuldade" value="basico">
+            <label for="basico">Básico</label><br>
+            <input type="radio" id="intermediario" name="dificuldade" value="intermediario" checked="checked">
+            <label for="intermediario">Intermediário</label><br>
+            <input type="radio" id="avancado" name="dificuldade" value="avancado">
+            <label for="avancado">Avançado</label>
+            <br>
+            <button id="iniciar">Iniciar</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
